@@ -1,5 +1,5 @@
 # config values will be loaded from here
-import config
+
 import os
 
 ENV = bool(os.environ.get("ENV", False))
